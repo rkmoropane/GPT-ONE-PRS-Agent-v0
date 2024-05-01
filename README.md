@@ -50,10 +50,10 @@ PRS:
 3. Activate the virtual environment:
 
 - On Windows:
- * `.\Scripts\activate`
+    * `.\Scripts\activate`
 
 - On macOS/Linux:
- * `source bin/activate`
+    * `source bin/activate`
 
 4. Clone this repository to your local machine.
 - `git clone https://github.com/rkmoropane/GPT-ONE-PRS-Agent-v0.git`
