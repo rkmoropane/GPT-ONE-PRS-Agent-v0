@@ -1,6 +1,7 @@
 # ABOUT THIS AI AGENT PROJECT:
 __
-WORKING ON AGENTS CODE
+
+## WORKING ON AGENTS CODE
 
 ### Objective: The objective of this project is to create an AI agent.
 
@@ -26,48 +27,46 @@ PRS:
 - ...
 __
 
-### Prerequisites
+## Prerequisites
 
-- Python 3.x
-- Rquired Modules: which is in the requirements.txt file ready for installation
+1. Python 3.x
+2. Required Modules: which are in the requirements.txt file ready for installation
 
-### File Structure
-
+## File Structure
+```
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
 └── agent.py
+```
 
-### Installation and Setup
+## Installation and Setup
 
-- Create a virtual environment:
- * `python -m venv myenv`
+1. Create a virtual environment:
+- `python -m venv myenv`
 
-- Navigate into your virtual env:
- * `cd myenv`
+2. Navigate into your virtual env:
+- `cd myenv`
 
-- Activate the virtual environment:
- * On Windows:
-    `.\Scripts\activate`
+3. Activate the virtual environment:
+- On Windows:
 
- * On macOS/Linux:
-    `source bin/activate`
+ * `.\Scripts\activate`
 
-- Clone this repository to your local machine.
- * `git clone https://github.com/rkmoropane/GPT-ONE-PRS-Agent-v0.git`
+- On macOS/Linux:
+ * `source bin/activate`
 
-- Navigate to the repo.
- * `cd GPT-ONE-PRS-Agent-v0/`
+4. Clone this repository to your local machine.
+- `git clone https://github.com/rkmoropane/GPT-ONE-PRS-Agent-v0.git`
 
-- Install dependencies:
- * `pip install -r requirements.txt`
+5. Navigate to the repo.
+- `cd GPT-ONE-PRS-Agent-v0/`
 
-- Install the setup.py file to import the get_pull_requests function as a module
- * `python setup.py develop`
-
+6. Install dependencies:
+- `pip install -r requirements.txt`
 
 ### Add OPENAI API KEY & SERPER API KEY:
-- Create a new shell script and name it `credentials.sh`. In this script, you will define the secret environment variable `OPENAI_API_KEY` and `SERPER_API_KEY` and store them within it. 
+1. Create a new shell script and name it `credentials.sh`. In this script, you will define the secret environment variable `OPENAI_API_KEY` and `SERPER_API_KEY` and store them within it. 
 - Copy and paste the following contents into your shell script:
 ```
 #!/bin/sh
@@ -79,22 +78,23 @@ export SERPER_API_KEY='your_generated_serper_api_key_here'
 export PYTHONPATH=/path/from/home/to/GPT-ONE-PRS-Agent-v0:$PYTHONPATH
 ```
 
-- Create your [OpenAI account](https://platform.openai.com) and Generate a OPENAI API KEY from your OpenAI API Keys [settings](https://platform.openai.com/api-keys), copy the key and paste it into your shell file.
+2. Create your [OpenAI account](https://platform.openai.com) and Generate a OPENAI API KEY from your OpenAI API Keys [settings](https://platform.openai.com/api-keys), copy the key and paste it into your shell file.
 
-- Create your [Serper account](https://serper.dev/) and Generate a SERPER API KEY from your Serper API Keys [settings](https://serper.dev/api-key), copy the key and paste it into your shell file.
+3. Create your [Serper account](https://serper.dev/) and Generate a SERPER API KEY from your Serper API Keys [settings](https://serper.dev/api-key), copy the key and paste it into your shell file.
 
-- Run your shell script:
- * for permisssions:
-    `chmod +x credentials.sh`  
- * run it:
-    `source credentials.sh`
-    
+4. Run your shell script:
+- for permisssions:
+    * `chmod +x credentials.sh`  
+- run it:
+    * `source credentials.sh`
+
 ### Run your python script in the terminal:
 - `python app.py`
 
-### Author
-Kholofelo Moropane
+## Author 
+Kholofelo Moropane  
+* rkmoropane@gmail.com
 
-kholofelo@fcb.ai
-License
-Copyright © 2024 Kholofelo Moropane.
+## License 
+Copyright © 2024 [Kholofelo Moropane](https://github.com/rkmoropane).<br />
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
