@@ -83,13 +83,13 @@ export PYTHONPATH=/path/from/home/to/GPT-ONE-PRS-Agent-v0:$PYTHONPATH
 3. Create your [Serper account](https://serper.dev/) and Generate a SERPER API KEY from your Serper API Keys [settings](https://serper.dev/api-key), copy the key and paste it into your shell file.
 
 4. Run your shell script:
-- for permisssions:
-    * `chmod +x credentials.sh`  
-- run it:
+for permisssions:
+* `chmod +x credentials.sh`  
+run it:
     * `source credentials.sh`
 
 ### Run your python script in the terminal:
-- `python app.py`
+`python app.py`
 
 ## Author 
 Kholofelo Moropane  
