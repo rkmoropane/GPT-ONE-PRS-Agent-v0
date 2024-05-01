@@ -49,11 +49,10 @@ __
 - `cd myenv`
 
 3. Activate the virtual environment:
-- On Windows:
-
+On Windows:
  * `.\Scripts\activate`
 
-- On macOS/Linux:
+On macOS/Linux:
  * `source bin/activate`
 
 4. Clone this repository to your local machine.
@@ -86,10 +85,10 @@ export PYTHONPATH=/path/from/home/to/GPT-ONE-PRS-Agent-v0:$PYTHONPATH
 for permisssions:
 * `chmod +x credentials.sh`  
 run it:
-    * `source credentials.sh`
+* `source credentials.sh`
 
 ### Run your python script in the terminal:
-`python app.py`
+* `python app.py`
 
 ## Author 
 Kholofelo Moropane  
