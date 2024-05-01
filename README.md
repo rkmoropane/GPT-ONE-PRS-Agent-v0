@@ -1,5 +1,5 @@
 # ABOUT THIS AI AGENT PROJECT:
-__
+
 
 ## WORKING ON AGENTS CODE
 
@@ -25,7 +25,6 @@ PRS:
 - must be called from a single object(might have many object in it)
 - must be a single script without importing from local script (other libraries acceptable)
 - ...
-__
 
 ## Prerequisites
 
@@ -49,10 +48,11 @@ __
 - `cd myenv`
 
 3. Activate the virtual environment:
-On Windows:
+
+- On Windows:
  * `.\Scripts\activate`
 
-On macOS/Linux:
+- On macOS/Linux:
  * `source bin/activate`
 
 4. Clone this repository to your local machine.
@@ -82,17 +82,17 @@ export PYTHONPATH=/path/from/home/to/GPT-ONE-PRS-Agent-v0:$PYTHONPATH
 3. Create your [Serper account](https://serper.dev/) and Generate a SERPER API KEY from your Serper API Keys [settings](https://serper.dev/api-key), copy the key and paste it into your shell file.
 
 4. Run your shell script:
-for permisssions:
-* `chmod +x credentials.sh`  
-run it:
-* `source credentials.sh`
+- for permisssions:
+    * `chmod +x credentials.sh`  
+- run it:
+    * `source credentials.sh`
 
 ### Run your python script in the terminal:
-* `python app.py`
+- `python app.py`
 
 ## Author 
 Kholofelo Moropane  
-* rkmoropane@gmail.com
+- rkmoropane@gmail.com
 
 ## License 
 Copyright © 2024 [Kholofelo Moropane](https://github.com/rkmoropane).<br />
