@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI # a great way to connect to multiple lar
 
 # Get all your secret environment variables
 class Config:
-    MODEL=os.environ.get("OPENAI_API_KEY", "gpt-3.5-turbo-0125")
+    MODEL=os.environ.get("MODEL", "gpt-3.5-turbo-0125")
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
     SERPER_API_KEY = os.environ.get("SERPER_API_KEY")
 
